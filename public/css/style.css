@@ -1,0 +1,121 @@
+#mynavbar{
+	background-color: #303F9F;
+}
+
+body{
+	font-family: 'Khand', sans-serif;
+	background:url('../images/texture.png') !important;
+}
+
+#header{
+	background:url('../images/car2.jpg') center center no-repeat;
+	background-size: cover;
+}
+
+.headercontent{
+	text-align: center;
+}
+
+.bigheader{
+	padding-top: 10%;
+	padding-bottom: 14%;
+	color:#FFF;
+	font-family: 'Khand', sans-serif;
+}
+
+#intro{
+
+	font-size: 5.5rem;
+	font-weight: 800;
+
+}
+
+#headerbtn{
+	margin-top: 5%;
+}
+
+.brand-logo{
+	font-family: 'Khand', sans-serif;
+	margin-left: 5%;
+}
+
+#quotebtn{
+	background: #3F51B5;
+	transition:0.5s;
+}
+
+#quotebtn:hover{
+	transform:scale(1.2);
+}
+
+#quote1{
+	margin-top: 5%;
+}
+
+#mypanel{
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+#quotepanel{
+
+	padding-top: 5%;
+	padding-bottom: 5%;
+
+}
+
+#abtus{
+
+	padding-top: 5%;
+	padding-bottom: 5%;
+
+}
+
+#servicecard{
+	text-align: center;
+	padding-top: 10%;
+	padding-bottom: 10%;
+}
+
+#whyus{
+	background-color: #fcfcfc;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+#quotes{
+
+	background:url('../images/car.jpg') center center no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	color:#FFF;
+
+}
+
+#myfooter{
+	background-color: #2E2E2E;
+}
+
+#quotationqstns,#quote1{
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+#partnercard{
+	height:300px;
+}
+
+#brands{
+
+	padding-top: 5%;
+	padding-bottom: 5%;
+
+}
+
+#blue{
+
+	color:#303F9F
+
+}
