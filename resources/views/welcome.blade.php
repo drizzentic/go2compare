@@ -210,6 +210,8 @@
 
 </div>
 
+<!--
+
 <div class="row" id="brands">
 
 <div class="container">
@@ -255,6 +257,8 @@
  
 
 </div>
+
+-->
 <div class="row" id="socialmedia">
 <div class="container">
 
