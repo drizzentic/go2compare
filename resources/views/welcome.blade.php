@@ -82,7 +82,7 @@
 
 <div class="row">
 
-<h2 align="center">Our Covers</h2>
+<h4 align="center">Compare Covers from 47+ insurance Companies</h4>
 <div class="col m3">
   <div class="card small">
     <img src="/images/life.jpg" width="100%">
