@@ -14,8 +14,7 @@
           <h1 id="intro">got2compare</h1>
            <h4>Insurance</h4>
           <div id="intro-message">
-          <h5 id="message1">The only insurance company that goes out of its way to get you what you 
-          deserve</h5>
+          <h5 id="message1">Trusted Car,health and life insurance</h5>
          
           </div>
          
