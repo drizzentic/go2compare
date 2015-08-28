@@ -316,7 +316,7 @@
 	$('#back2step3').click(function(){
         $('#q4').hide( "drop", { direction: "down" }, "slow" );
 
-        $( "#q3" ).delay(3000).fadeIn(3000 );
+        $( "#q3" ).show( "fold", 1000 );
 
 
 	});

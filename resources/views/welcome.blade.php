@@ -15,7 +15,7 @@
           <div id="intro-message">
           <h5 id="message1" style="display:none">The only insurance company that goes out of its way to get you what you 
           deserve</h5>
-          <h5 id="message2" style="display:none">The only insurance company that goes out of its way to get you what you 
+          <h5 id="message2" style="display:none">The Most trusted company in Africa
           deserve</h5>
           </div>
          

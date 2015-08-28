@@ -108,7 +108,14 @@ $(".dropdown-button").dropdown();
  $('.modal-trigger').leanModal();
 
 
-$('#message1').show( "fold", 1000 ).delay('1000')
+$('#message1').show( "clip", 1000 ).delay(2000);
+$('#message1').hide( "fold", 1000 ).delay(2000).queue(function(){
+   $('#message2').show( "clip", 1000 ).delay(2000);
+
+});
+
+
+
 
  
 
