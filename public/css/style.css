@@ -8,12 +8,16 @@ body{
 }
 
 #header{
-	background:url('../images/car3.jpg') center center no-repeat;
+	
 	background-size: cover;
+	background:url('../images/family2.jpg') no-repeat center center;
+	background-size:cover;
+
 }
 
 .headercontent{
 	text-align: center;
+
 }
 
 .bigheader{
@@ -21,6 +25,11 @@ body{
 	padding-bottom: 14%;
 	color:#FFF;
 	font-family: 'Khand', sans-serif;
+	
+}
+
+#overlay{
+	background-color: rgba(0,0,0,0.6);
 }
 
 #intro{
@@ -129,4 +138,35 @@ body{
 
 #questionrow{
 	margin-top: 5%;
+}
+
+#socialmedia{
+	background-color: #FFF;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	margin-bottom: 0px;
+}
+
+.fa-facebook{
+	color: #3b5998;
+}
+
+.fa-twitter{
+	color:#00aced;
+}
+
+.fa-google-plus{
+	color:#dd4b39;
+}
+
+.fa-linkedin{
+	color:#007bb6;
+}
+
+@media(max-width: 768px){
+
+	#intro{
+		font-size: 3.0rem !important;
+		font-weight: 300;
+	}
 }

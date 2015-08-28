@@ -5,30 +5,120 @@
 
 <div class="row" id="header">
 
-    <div class="col m12 s12">
+    <div class="col m12 s12" id="overlay">
      <div class="headercontent">
+     <div class="col m8 s12" >
 
       <div class="bigheader">
 
           <h1 id="intro">got2compare</h1>
-           <h4>Car insurance</h4>
+           <h4>Insurance</h4>
           <div id="intro-message">
-          <h5 id="message1" style="display:none">The only insurance company that goes out of its way to get you what you 
+          <h5 id="message1">The only insurance company that goes out of its way to get you what you 
           deserve</h5>
-          <h5 id="message2" style="display:none">The Most trusted company in Africa
-          deserve</h5>
+         
           </div>
          
           <div id="headerbtn">
           <a href="/q4"class="waves-effect waves-light btn-large" id="quotebtn">Get 2 Compare</a>
-         
+          
+          </div>
+          <p><i class="fa fa-phone fa-3x fa-fw"></i><h5>Call us at +254700 234 564 </h5></p>
+
+      </div>
+      </div>
+      <div class="col m4 s12">
+       
+          
+          <div class="card-panel">
+           <div class="row">
+           <h3 align="center" id="blue">Insurance is only a click away!</h3>
+            {!! Form::open(array('url' => '/q2','class'=>'form-horizontal')) !!}
+
+                  <div class="input-field col offset-m1 m10 s12">
+                 <input  id="first_name2" type="text" class="validate">
+                 <label class="active" for="first_name2">Name</label>
+           
+                  </div>
+
+                  <div class="input-field col offset-m1 m10 s12">
+                 <input  id="first_name2" type="text" class="validate">
+                 <label class="active" for="first_name2">Email</label>
+           
+                  </div>
+                  <div class="input-field col offset-m1 m10 s12">
+                <select>
+                        <option value="" disabled selected>County</option>
+                        <option value="1">Nairobi</option>
+                        <option value="2">Mombasa</option>
+                        <option value="3">Machakos</option>
+                        <option value="3">Nakuru</option>
+                        <option value="3">Kisumu</option>
+     
+               </select>
+                <label>County? </label>
+           
+                  </div>
+                   <div class="input-field col offset-m1 m10 s12">
+
+                    <button class="btn waves-effect waves-light" id="quotebtn" type="submit" name="action">Submit
+                   <i class="fa fa-spinner fa-spin"></i>
+                    </button>
+
+                   </div>
+
+
+            {!! Form::close() !!}
           </div>
 
+        </div>
+            
       </div>
 
       </div>
 
     </div>
+
+</div>
+
+<div class="row">
+
+<h2 align="center">Our Covers</h2>
+<div class="col m3">
+  <div class="card small">
+    <img src="/images/life.jpg" width="100%">
+    <div class="card-content">
+     <h5>Life Insurance</h5>
+    </div>
+  </div>
+</div>
+
+<div class="col m3">
+  <div class="card small">
+    <img src="/images/car5.jpg" width="100%">
+    <div class="card-content">
+     <h5>Accident Insurance</h5>
+    </div>
+  </div>
+</div>
+
+<div class="col m3">
+  <div class="card small">
+    <img src="/images/health.jpg" width="100%">
+    <div class="card-content">
+     <h5>Health Insurance</h5>
+    </div>
+  </div>
+</div>
+
+<div class="col m3">
+  <div class="card small">
+    <img src="/images/car6.jpg" width="100%">
+    <div class="card-content">
+     <h5>Car Insurance</h5>
+    </div>
+  </div>
+</div>
 
 </div>
 <div class="row" id="abtus">
@@ -163,6 +253,40 @@
 </div>
 
  
+
+</div>
+<div class="row" id="socialmedia">
+<div class="container">
+
+<div class="col m12 s12">
+
+<h3 align="center" id="blue">Find us Online</h3>
+
+<div class="col m3 s12">
+
+ <span class="fa fa-facebook fa-5x"></span>
+
+</div>
+<div class="col m3 s12">
+
+ <span class="fa fa-twitter fa-5x"></span>
+
+</div>
+
+<div class="col m3 s12">
+
+ <span class="fa fa-google-plus fa-5x"></span>
+
+</div>
+<div class="col m3 s12">
+
+ <span class="fa fa-linkedin fa-5x"></span>
+
+</div>
+
+</div>
+</div>
+
 
 </div>
 

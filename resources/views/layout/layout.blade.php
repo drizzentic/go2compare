@@ -67,7 +67,7 @@
             <div class="row">
               <div class="col l6 s12">
                 <h5 class="white-text">go2compare</h5>
-                <p class="grey-text text-lighten-4"></p>
+                <p class="grey-text text-lighten-4">text</p>
               </div>
               <div class="col l4 offset-l2 s12">
                 <h5 class="white-text">Pages</h5>
@@ -108,11 +108,6 @@ $(".dropdown-button").dropdown();
  $('.modal-trigger').leanModal();
 
 
-$('#message1').show( "clip", 1000 ).delay(2000);
-$('#message1').hide( "fold", 1000 ).delay(2000).queue(function(){
-   $('#message2').show( "clip", 1000 ).delay(2000);
-
-});
 
 
 
