@@ -19,7 +19,7 @@
 
 </head>
 <body>
-
+<div class="wrapper">
 
 <!-- Dropdown Structure -->
 <ul id="dropdown1" class="dropdown-content">
@@ -33,13 +33,22 @@
 <nav id="mynavbar">
   <div class="nav-wrapper">
     <a href="/" class="brand-logo">g2c</a>
+    <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="fa fa-bars"></i>
+</a>
     <ul class="right hide-on-med-and-down">
      <li><a href="/">Home</a></li>
       <li><a href="/#abtus">About Us</a></li>
       
-       <li><a href="badges.html">Contact Us</a></li>
+       <li><a href="">Contact Us</a></li>
      
     </ul>
+
+    <ul class="side-nav" id="mobile-demo">
+        <li><a href="/">Home</a></li>
+      <li><a href="/#abtus">About Us</a></li>
+      
+       <li><a href="">Contact Us</a></li>
+      </ul>
   </div>
 </nav>
 </div>
@@ -60,6 +69,58 @@
       <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
     </div>
   </div>
+
+  <!-- Modal Structure -->
+  <div id="modal2" class="modal">
+    <div class="modal-content">
+     <div class="row">
+
+<h4 align="center">Select Insurance Cover</h4>
+<div class="col m3">
+  <div class="card small">
+    <img src="/images/life.jpg" width="100%">
+    <div class="card-content">
+     <h5>Life Insurance</h5>
+    </div>
+  </div>
+</div>
+
+<div class="col m3">
+  <div class="card small">
+    <img src="/images/car5.jpg" width="100%">
+    <div class="card-content">
+     <h5>Accident Insurance</h5>
+    </div>
+  </div>
+</div>
+
+<div class="col m3">
+  <div class="card small">
+    <img src="/images/health.jpg" width="100%">
+    <div class="card-content">
+     <h5>Health Insurance</h5>
+    </div>
+  </div>
+</div>
+
+<div class="col m3">
+  <div class="card small">
+    <img src="/images/car6.jpg" width="100%">
+    <div class="card-content">
+     <h5>Car Insurance</h5>
+    </div>
+  </div>
+</div>
+
+</div>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div>
+  </div>
+</div><!-- end of wrapper -->
+
+<div class="push"></div>
 
 
     <footer class="page-footer" id="myfooter">
@@ -94,6 +155,8 @@
 <script type="text/javascript">
 	
 $(document).ready(function(){
+
+   $(".button-collapse").sideNav();
 
 
 $(".dropdown-button").dropdown();

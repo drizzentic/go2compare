@@ -13,9 +13,9 @@
 
 Route::get('/getquote1','QuoteController@quote1');
 
-Route::post('/q1','QuoteController@question1');
+Route::get('/q1','QuoteController@question1');
 
-Route::post('/q2','QuoteController@question2');
+Route::get('/q2','QuoteController@question2');
 
 Route::post('/q3','QuoteController@question3');
 

@@ -60,9 +60,9 @@
                   </div>
                    <div class="input-field col offset-m1 m10 s12">
 
-                    <button class="btn waves-effect waves-light" id="quotebtn" type="submit" name="action">Submit
+                    <a class="btn waves-effect waves-light modal-trigger" href="#modal2" id="quotebtn"  name="action">Submit
                    <i class="fa fa-spinner fa-spin"></i>
-                    </button>
+                    </a>
 
                    </div>
 
@@ -80,9 +80,10 @@
 
 </div>
 
-<div class="row">
+<div class="row" id="covers">
 
 <h4 align="center">Compare Covers from 47+ insurance Companies</h4>
+<a href="/q1">
 <div class="col m3">
   <div class="card small">
     <img src="/images/life.jpg" width="100%">
@@ -90,34 +91,34 @@
      <h5>Life Insurance</h5>
     </div>
   </div>
-</div>
+</div></a>
 
-<div class="col m3">
+<a href="/q1"><div class="col m3">
   <div class="card small">
     <img src="/images/car5.jpg" width="100%">
     <div class="card-content">
      <h5>Accident Insurance</h5>
     </div>
   </div>
-</div>
+</div></a>
 
-<div class="col m3">
+<a href="/q2"><div class="col m3">
   <div class="card small">
     <img src="/images/health.jpg" width="100%">
     <div class="card-content">
      <h5>Health Insurance</h5>
     </div>
   </div>
-</div>
+</div></a>
 
-<div class="col m3">
+<a href="/q4"><div class="col m3">
   <div class="card small">
     <img src="/images/car6.jpg" width="100%">
     <div class="card-content">
      <h5>Car Insurance</h5>
     </div>
   </div>
-</div>
+</div></a>
 
 </div>
 <div class="row" id="abtus">

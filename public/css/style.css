@@ -1,7 +1,22 @@
+html,body{
+	height:100%;
+}
+
 #mynavbar{
 	background-color: #303F9F;
 }
 
+
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -200px;
+}
+
+.push{
+  height: 100px;
+}
 body{
 	font-family: 'Khand', sans-serif;
 	background:url('../images/texture.png') !important;
@@ -75,8 +90,8 @@ body{
 
 #abtus{
 
-	padding-top: 5%;
-	padding-bottom: 5%;
+	padding-top: 3%;
+	padding-bottom: 3%;
 
 }
 
@@ -88,8 +103,8 @@ body{
 
 #whyus{
 	background-color: #fcfcfc;
-	padding-top: 5%;
-	padding-bottom: 5%;
+	padding-top: 3%;
+	padding-bottom: 3%;
 }
 
 #quotes{
@@ -118,8 +133,8 @@ body{
 
 #brands{
 
-	padding-top: 5%;
-	padding-bottom: 5%;
+	padding-top: 3%;
+	padding-bottom: 3%;
 
 }
 
@@ -149,18 +164,32 @@ body{
 
 .fa-facebook{
 	color: #3b5998;
+	transition:0.5s;
+}
+
+.fa-facebook:hover,.fa-twitter:hover,.fa-google-plus:hover,.fa-linkedin:hover{
+	transform:scale(1.5);
+	cursor: pointer;
 }
 
 .fa-twitter{
 	color:#00aced;
+	transition:0.5s;
 }
 
 .fa-google-plus{
 	color:#dd4b39;
+	transition:0.5s;
 }
 
 .fa-linkedin{
 	color:#007bb6;
+	transition:0.5s;
+}
+
+#covers{
+	padding-top: 3%;
+	padding-bottom: 3%;
 }
 
 @media(max-width: 768px){
