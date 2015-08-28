@@ -6,6 +6,16 @@ html,body{
 	background-color: #303F9F;
 }
 
+label{
+	font-size: 20px !important;
+}
+
+.input-field p{
+
+	font-size: 20px !important;
+
+}
+
 
 .wrapper {
     min-height: 100%;
@@ -15,7 +25,7 @@ html,body{
 }
 
 .push{
-  height: 100px;
+  height: 150px;
 }
 body{
 	font-family: 'Khand', sans-serif;

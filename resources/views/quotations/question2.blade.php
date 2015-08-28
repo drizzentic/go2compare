@@ -104,10 +104,10 @@
 
   <div class="input-field col offset-m1 m10 s12">
           <p>Have you smoked in the last 12 months</p>
-            <input name="group1" type="radio" id="test1" />
-          <label for="test1">Yes</label>
-          <input name="group1" type="radio" id="test2" />
-          <label for="test2">No</label>
+            <input name="group7" type="radio" id="test7" />
+          <label for="test7">Yes</label>
+          <input name="group7" type="radio" id="test8" />
+          <label for="test8">No</label>
           <br>
           <br>
     </div>
@@ -145,10 +145,10 @@
  <div class="input-field col offset-m1 m10 s12">
     
       <p>Have you had any surgeries over the last 3 yrs</p>
-        <input name="group1" type="radio" id="test1" />
-      <label for="test1">Yes</label>
-      <input name="group1" type="radio" id="test2" />
-      <label for="test2">No</label>
+        <input name="group10" type="radio" id="test10" />
+      <label for="test10">Yes</label>
+      <input name="group10" type="radio" id="test11" />
+      <label for="test11">No</label>
       <br>
 </div>
 <div class="input-field col offset-m1 m10 s12">

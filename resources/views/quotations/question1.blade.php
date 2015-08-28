@@ -34,10 +34,10 @@
     </div>
     <div class="input-field col offset-m1 m10 s12">
           <p>Have you smoked in the last 12 months</p>
-            <input name="group1" type="radio" id="test1" />
-          <label for="test1">Yes</label>
-          <input name="group1" type="radio" id="test2" />
-          <label for="test2">No</label>
+            <input name="group2" type="radio" id="test3" />
+          <label for="test3">Yes</label>
+          <input name="group2" type="radio" id="test4" />
+          <label for="test4">No</label>
           <br>
           <br>
     </div>
@@ -66,10 +66,10 @@
  <h3 align="center">Step 2</h3>
   <div class="input-field col offset-m1 m10 s12">
     <p>Select cover type</p>
-        <input name="group1" type="radio" id="test1" />
-      <label for="test1">Fast Track (Apply for up to 1M)</label>
-      <input name="group1" type="radio" id="test2" />
-      <label for="test2">Comprehensive(Apply for up to 2M)</label>
+        <input name="group5" type="radio" id="test5" />
+      <label for="test5">Fast Track (Apply for up to 1M)</label>
+      <input name="group5" type="radio" id="test6" />
+      <label for="test6">Comprehensive(Apply for up to 2M)</label>
       <br>
    
 </div>

@@ -120,10 +120,10 @@
 </div>
 <div class="input-field col offset-m1 m10 s12">
       <p>Are you the owner of the car?</p>
-        <input name="group1" type="radio" id="test1" />
-      <label for="test1">Yes</label>
-      <input name="group1" type="radio" id="test2" />
-      <label for="test2">No</label>
+        <input name="group11" type="radio" id="test11" />
+      <label for="test11">Yes</label>
+      <input name="group11" type="radio" id="test12" />
+      <label for="test12">No</label>
       <br>
 </div>
 <div class="input-field col offset-m7  s12">
@@ -155,10 +155,10 @@
     
       <p>Has the car been modified, adapted and/or fitted with any optional extras such as changes to the bodywork,
        engine, wheels or audio system?</p>
-        <input name="group1" type="radio" id="test1" />
-      <label for="test1">Yes</label>
-      <input name="group1" type="radio" id="test2" />
-      <label for="test2">No</label>
+        <input name="group13" type="radio" id="test13" />
+      <label for="test13">Yes</label>
+      <input name="group13" type="radio" id="test14" />
+      <label for="test14">No</label>
       <br>
 </div>
 <div class="input-field col offset-m1 m10 s12">
