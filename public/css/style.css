@@ -153,6 +153,8 @@ body{
 
 #questionrow{
 	margin-top: 5%;
+	margin-bottom: 7%;
+
 }
 
 #socialmedia{
@@ -198,4 +200,20 @@ body{
 		font-size: 3.0rem !important;
 		font-weight: 300;
 	}
+
+	
+}
+
+@media(max-width: 468px){
+
+	#intro{
+		font-size: 3.0rem !important;
+		font-weight: 300;
+	}
+
+	#questionrow{
+	margin-top: 5%;
+	margin-bottom: 22% !important;
+
+}
 }
