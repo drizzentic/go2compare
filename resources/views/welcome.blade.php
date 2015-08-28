@@ -84,7 +84,7 @@
 
 <h4 align="center">Compare Covers from 47+ insurance Companies</h4>
 <a href="/q1">
-<div class="col m3">
+<div class="col m3 s12">
   <div class="card small">
     <img src="/images/life.jpg" width="100%">
     <div class="card-content">
@@ -93,7 +93,7 @@
   </div>
 </div></a>
 
-<a href="/q1"><div class="col m3">
+<a href="/q1"><div class="col m3 s12">
   <div class="card small">
     <img src="/images/car5.jpg" width="100%">
     <div class="card-content">
@@ -102,7 +102,7 @@
   </div>
 </div></a>
 
-<a href="/q2"><div class="col m3">
+<a href="/q2"><div class="col m3 s12">
   <div class="card small">
     <img src="/images/health.jpg" width="100%">
     <div class="card-content">
@@ -111,7 +111,7 @@
   </div>
 </div></a>
 
-<a href="/q4"><div class="col m3">
+<a href="/q4"><div class="col m3 s12">
   <div class="card small">
     <img src="/images/car6.jpg" width="100%">
     <div class="card-content">
@@ -157,7 +157,7 @@
 
        </div>
 
-        <div class="col m4">
+        <div class="col m4 s12">
          <div class="card small" id="servicecard">
             <div class="card-image">
               <span class="fa fa-smile-o  fa-5x"></span>
@@ -172,7 +172,7 @@
 
        </div>
 
-        <div class="col m4">
+        <div class="col m4 s12">
          <div class="card small" id="servicecard">
             <div class="card-image">
               <span class="fa fa-paperclip fa-5x"></span>

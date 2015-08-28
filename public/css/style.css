@@ -120,6 +120,7 @@ body{
 
 #myfooter{
 	background-color: #2E2E2E;
+
 }
 
 #quotationqstns,#quote1{
@@ -215,5 +216,10 @@ body{
 	margin-top: 5%;
 	margin-bottom: 22% !important;
 
+}
+
+#myfooter{
+	background-color: #2E2E2E;
+	margin-top: 20%;
 }
 }
