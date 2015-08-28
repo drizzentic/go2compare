@@ -8,7 +8,7 @@ body{
 }
 
 #header{
-	background:url('../images/car2.jpg') center center no-repeat;
+	background:url('../images/car3.jpg') center center no-repeat;
 	background-size: cover;
 }
 
@@ -85,7 +85,7 @@ body{
 
 #quotes{
 
-	background:url('../images/car.jpg') center center no-repeat;
+	background:url('../images/car4.jpg') center center no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 	padding-top: 5%;
@@ -118,4 +118,15 @@ body{
 
 	color:#303F9F
 
+}
+
+#q1,#q2,#q3,#q4,#q5{
+
+	
+	margin-bottom: 10%;
+
+}
+
+#questionrow{
+	margin-top: 5%;
 }

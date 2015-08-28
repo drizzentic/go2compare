@@ -21,6 +21,8 @@ Route::post('/q3','QuoteController@question3');
 
 Route::post('/getquote','QuoteController@getquote');
 
+Route::get('/q4','QuoteController@question4');
+
 Route::get('/', function () {
     return view('welcome');
 });

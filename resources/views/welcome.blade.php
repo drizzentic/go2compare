@@ -11,10 +11,17 @@
       <div class="bigheader">
 
           <h1 id="intro">got2compare</h1>
-          <h4>Car insurance</h4>
+           <h4>Car insurance</h4>
+          <div id="intro-message">
+          <h5 id="message1" style="display:none">The only insurance company that goes out of its way to get you what you 
+          deserve</h5>
+          <h5 id="message2" style="display:none">The only insurance company that goes out of its way to get you what you 
+          deserve</h5>
+          </div>
+         
           <div id="headerbtn">
-          <a href="/getquote1"class="waves-effect waves-light btn-large" id="quotebtn">Get Quote</a>
-
+          <a href="/q4"class="waves-effect waves-light btn-large" id="quotebtn">Get 2 Compare</a>
+         
           </div>
 
       </div>

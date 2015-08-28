@@ -11,6 +11,12 @@
 <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Khand' rel='stylesheet' type='text/css'>
 
+
+ <script type="text/javascript" src="/components/jquery/dist/jquery.min.js"></script>
+   <script type="text/javascript" src="/components/Materialize/dist/js/materialize.min.js"></script>
+   <script type="text/javascript" src="/components/jquery-ui/jquery-ui.min.js"></script>
+ <script type="text/javascript" src="/js/jquery.steps.js"></script>
+
 </head>
 <body>
 
@@ -83,9 +89,7 @@
         </footer>
 
 
-   <script type="text/javascript" src="/components/jquery/dist/jquery.min.js"></script>
-   <script type="text/javascript" src="/components/Materialize/dist/js/materialize.min.js"></script>
-   <script type="text/javascript" src="/components/jquery-ui/jquery-ui.min.js"></script>
+  
 
 <script type="text/javascript">
 	
@@ -102,9 +106,17 @@ $(".dropdown-button").dropdown();
   });
         
  $('.modal-trigger').leanModal();
+
+
+$('#message1').show( "fold", 1000 ).delay('1000')
+
+ 
+
+
 });
 
 </script>
+
 
 
 
