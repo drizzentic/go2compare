@@ -20,7 +20,7 @@
         <input name="group1" type="radio" id="test1" />
       <label for="test1">Yes</label>
       <input name="group1" type="radio" id="test2" />
-      <label for="test2">Yellow</label>
+      <label for="test2">No</label>
       <br>
 </div>
 <div class="input-field col offset-m1 m10 s12">
