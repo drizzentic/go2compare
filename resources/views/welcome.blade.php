@@ -31,7 +31,7 @@
           
           <div class="card-panel">
            <div class="row">
-           <h3 align="center" id="blue">Insurance is only a click away!</h3>
+           <h3 align="center" id="blue">Compare insurance covers with just a click</h3>
             {!! Form::open(array('url' => '/q2','class'=>'form-horizontal')) !!}
 
                   <div class="input-field col offset-m1 m10 s12">
