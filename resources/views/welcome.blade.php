@@ -11,7 +11,7 @@
 
       <div class="bigheader">
 
-          <h1 id="intro">got2compare</h1>
+          <h1 id="intro">got2compare.co.ke</h1>
            <h4>Insurance</h4>
           <div id="intro-message">
           <h5 id="message1">Get to compare insurance covers from 47+ insurance companies</h5>
